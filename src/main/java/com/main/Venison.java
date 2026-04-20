@@ -7,12 +7,12 @@ public class Venison extends DishDecorator{
     
     @Override
     public String getDescription() {
-        return decoratedDish.getDescription() + " + Двойная порция оленины";
+        return super.getDescription() + " + Двойная порция оленины";
     }
     
     @Override
     public int getPrice() {
-        return decoratedDish.getPrice() + 20;
+        return super.getPrice() + 20;
     }
 }
 

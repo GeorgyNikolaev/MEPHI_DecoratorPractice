@@ -7,11 +7,11 @@ public class SnowBerries extends DishDecorator{
     
     @Override
     public String getDescription() {
-        return decoratedDish.getDescription() + " + Снежные ягоды";
+        return super.getDescription() + " + Снежные ягоды";
     }
     
     @Override
     public int getPrice() {
-        return decoratedDish.getPrice() + 5;
+        return super.getPrice() + 5;
     }
 }

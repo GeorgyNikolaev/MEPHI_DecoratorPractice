@@ -7,12 +7,12 @@ public class FireSauce extends DishDecorator {
     
     @Override
     public String getDescription() {
-        return decoratedDish.getDescription() + " + Огненный соус";
+        return super.getDescription() + " + Огненный соус";
     }
     
     @Override
     public int getPrice() {
-        return decoratedDish.getPrice() + 10;
+        return super.getPrice() + 10;
     }
 }
 

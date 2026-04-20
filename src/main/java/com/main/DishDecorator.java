@@ -1,7 +1,7 @@
 package com.main;
 
 public abstract class DishDecorator implements Dish {
-    public Dish decoratedDish;
+    private Dish decoratedDish;
     
     public DishDecorator(Dish decoratedDish) {
         this.decoratedDish = decoratedDish;

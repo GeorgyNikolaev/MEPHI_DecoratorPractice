@@ -7,11 +7,11 @@ public class Flatbread extends DishDecorator{
     
     @Override
     public String getDescription() {
-        return decoratedDish.getDescription() + " + Нордская лепёшка";
+        return super.getDescription() + " + Нордская лепёшка";
     }
     
     @Override
     public int getPrice() {
-        return decoratedDish.getPrice() + 7;
+        return super.getPrice() + 7;
     }
 }
