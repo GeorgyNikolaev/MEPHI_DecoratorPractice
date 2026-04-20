@@ -1,22 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.main;
 
-/**
- *
- * @author zubbo
- */
 import java.awt.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import javax.swing.*;
 
-/**
- *
- * @author zubbo
- */
 public class Gui extends JFrame{
     private final JCheckBox fireSauceBox;
     private final JCheckBox venisonBox;
